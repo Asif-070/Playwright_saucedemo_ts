@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { loginPage } from '../pages/loginPage';
-import { navbar } from '../pages/navbar';
+import { navbar } from '../pages/navBar';
 
 test('State Validation', async ({ page }) => {
     const LoginPage = new loginPage(page);
