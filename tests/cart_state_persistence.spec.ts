@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { loginPage } from '../pages/loginPage';
 import { inventoryPage } from '../pages/inventoryPage';
 import { cartPage } from '../pages/cartPage';
-import { navbar } from '../pages/navbar';
+import { navbar } from '../pages/navBar';
 
 test('State Validation', async ({ page }) => {
     const LoginPage = new loginPage(page);
