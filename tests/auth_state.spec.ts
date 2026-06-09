@@ -4,7 +4,7 @@ import { navbar } from '../pages/navBar';
 
 test('State Validation', async ({ page }) => {
     const LoginPage = new loginPage(page);
-    await LoginPage.gotologinpage();
+    
 
     await page.goto('https://www.saucedemo.com/inventory.html');
     await expect(page).toHaveURL('https://www.saucedemo.com/');
